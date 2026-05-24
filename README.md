@@ -26,14 +26,16 @@ An intelligent, computer vision-based monitoring pipeline designed to analyze ac
 ---
 
 ## Prerequisites & Installation
-``` ###System Requirements 
+###System Requirements 
+``` 
 OS: Windows, macOS, or Linux
 
 Runtime: Python 3.8 or higher
 
 Hardware: Compute capability for CUDA acceleration is highly recommended but not mandatory (system defaults smoothly to CPU threads).
 ```
-``` ###Setup Instructions
+###Setup Instructions
+``` 
 1.Clone the Repository
 git clone [https://github.com/omamah123/lab-monitoring-system.git](https://github.com/omamah123/lab-monitoring-system.git)
 cd lab-monitoring-system
@@ -42,12 +44,14 @@ pip install ultralytics opencv-python numpy torch torchvision
 3. pip install ultralytics opencv-python numpy torch torchvision
 python main.py
 ```
-``` ###Usage
+###Usage
+``` 
 1.Configure Parameters: Open config.py to specify your target video sources (e.g., local video path or webcam stream index) and adjust your detection filters.
 2.Execute the Pipeline: Launch the tracking system by running the main execution module:
 python main.py
 ```
-```###Configuration Parameters
+###Configuration Parameters
+```
 The parameters isolated inside config.py allow you to easily fine-tune performance without altering core logic:
 
 Inference Thresholds: Set precision parameters such as the confidence (conf) and intersection-over-union (iou) limits to filter weak detections.
