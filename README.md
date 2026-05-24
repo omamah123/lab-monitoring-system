@@ -23,8 +23,10 @@ An intelligent, computer vision-based monitoring pipeline designed to analyze ac
 ├── main.py            # Primary orchestrator and execution entry point
 └── yolov8m.pt         # Serialized Ultralytics YOLOv8 medium model weights
 
-Prerequisites & Installation
-System Requirements
+---
+
+## Prerequisites & Installation
+System Requirements 
 OS: Windows, macOS, or Linux
 
 Runtime: Python 3.8 or higher
