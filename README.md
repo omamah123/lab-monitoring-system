@@ -26,7 +26,7 @@ An intelligent, computer vision-based monitoring pipeline designed to analyze ac
 ---
 
 ## Prerequisites & Installation
-###System Requirements 
+### System Requirements 
 ``` 
 OS: Windows, macOS, or Linux
 
