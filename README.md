@@ -22,11 +22,11 @@ An intelligent, computer vision-based monitoring pipeline designed to analyze ac
 ├── visualizer.py      # OpenCV canvas annotations, color-mapping, and rendering utilities
 ├── main.py            # Primary orchestrator and execution entry point
 └── yolov8m.pt         # Serialized Ultralytics YOLOv8 medium model weights
-
+```
 ---
 
 ## Prerequisites & Installation
-System Requirements 
+```System Requirements 
 OS: Windows, macOS, or Linux
 
 Runtime: Python 3.8 or higher
@@ -53,4 +53,4 @@ Inference Thresholds: Set precision parameters such as the confidence (conf) and
 Hardware Allocation: Choose your compute device manually (cuda vs cpu) or let the script auto-detect available NVIDIA hardware runtimes.
 
 Stream Matrix: Manage video feed inputs (rtsp links, pre-recorded laboratory footage, or hardware camera index ids).
-
+```
